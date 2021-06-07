@@ -1,0 +1,129 @@
+@import url(fonts.css);
+
+/*========== ROOT START ==========*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "BK";
+
+
+
+}
+
+*::selection {
+    color: black;
+    background: red;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ========== ROOT END ========== */
+
+
+/* ========== HEADER START ========== */
+body {
+    width: 100%;
+}
+
+header {
+    background: url(../img/header-bg.jpg) center center / cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: auto;
+}
+#navbar {
+    overflow: hidden;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.header__logo {
+    font-size: 25px;
+    margin: 16px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.max {
+    color: red;
+}
+
+
+.menu__link {
+    margin-right: 52px;
+}
+
+.menu {
+    display: flex;
+    margin-top: 16px;
+}
+
+.we {
+    color: red;
+}
+
+.header__title {
+    height: 60vh;
+    width: 1400px;
+    width: 60%;
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.description__title {
+    text-align: right;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.about__content {
+
+    text-align: right;
+}
+
+.header__title-text {
+    display: flex;
+    text-align: center;
+    font-size: 60px;
+    line-height: 100px;
+}
+
+/* ========== HEADER END ========== */
+
+/* ========== MAIN START ========== */
+
+
+
+/* ========== MAIN END ========== */
+
+/* ========== FOOTER START ========== */
+
+/* ========== FOOTER START ========== */

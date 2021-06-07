@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "BK";
+    src: url(../fonts/bicubik-regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "RBR";
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "RBB";
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "RYR";
+    src: url(../fonts/Raleway-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "RYB";
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+}
