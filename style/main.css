@@ -57,15 +57,21 @@ header {
     margin: 16px 0;
 }
 
-nav {
+/* nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    font-size: 25px;
+    font-size:18px;
     background: rgba(0, 0, 0, 0.8);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-bottom: 100px;
+} */
+.navbar{
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.container-fluid{
+    justify-content: space-between;
 }
 
 .max {
@@ -79,7 +85,8 @@ nav {
 
 .menu {
     display: flex;
-    margin-top: 16px;
+    align-items: center;
+    margin-left: auto;
 }
 
 .we {
@@ -114,6 +121,14 @@ nav {
     text-align: center;
     font-size: 60px;
     line-height: 100px;
+}
+.active a{
+    color: red;
+}
+
+.icon{
+    color: red;
+    font-size: 22px;
 }
 
 /* ========== HEADER END ========== */
