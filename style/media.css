@@ -20,4 +20,19 @@
     main{
         padding: 0;
     }
+    .constructor{
+        padding: 0;
+    }
+    .constructor__content-item{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
+@media(max-width:432px){
+    .constructor__content-item{
+        min-width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
