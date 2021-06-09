@@ -293,8 +293,12 @@ main{
 }
 
 .error{
-    color: tomato;
-    font-size: 12px;
+    color: rgb(246, 96, 69);
+    font-size: 20px;
+    margin: 0;
+}
+.red{
+    border-bottom: tomato;
 }
 
 /* ========== MAIN END ========== */
