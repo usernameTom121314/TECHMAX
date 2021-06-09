@@ -107,14 +107,35 @@
             </div>
             </div>
         </section>
+        <form action="#" class="form container-lg">
+            <h1 class="form__title">СВЯЗАТЬСЯ С НАМИ</h1>
+            <div class="input-container">
+                <p class="input-text required">Имя</p>
+                <input type="text"  name="user" class="input name" placeholder="Введите свое имя">
+            </div>
+            <div class="error"></div>
+            <div class="input-container">
+                <p class="input-text required">Эл. почта</p>
+                <input type="email"  name="email" class="input mail" placeholder="Добавьте эл. почту">
+            </div>
+            <div class="input-container">
+                <p class="input-text">Тема</p>
+                <input type="text" name="theme" class="input" placeholder="Укажите тему">
+            </div>
+            <div class="input-container">
+                <p class="input-text">Сообщение</p>
+                <textarea name="message" class="input textarea" placeholder="Добавьте сообщение..."></textarea>
+            </div>
+            <button type="submit" class="form__btn">Отправить</button>
+        </form>
     </main>
     <footer></footer>
 
-
-
+    <script src="js/form.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/43ff50d26e.js" crossorigin="anonymous"></script>
+ 
 
 </body>
 </html>

@@ -12,6 +12,9 @@
         width: 100%;
         align-items: center;
     }
+    .header__subtitle{
+        text-align: center;
+    }
     .header__title-text{
         font-size: 45px;
         margin-left: 5px;
@@ -19,6 +22,7 @@
     }
     main{
         padding: 0;
+        padding-bottom: 80px;
     }
     .constructor{
         padding: 0;
@@ -31,8 +35,10 @@
 
 @media(max-width:432px){
     .constructor__content-item{
-        min-width: 100%;
+        min-width: 90%;
         margin-left: 0px;
         margin-right: 0px;
+        margin-bottom: 15px;
     }
+
 }
