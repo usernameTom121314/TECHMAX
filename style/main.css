@@ -297,12 +297,45 @@ main{
     font-size: 20px;
     margin: 0;
 }
-.red{
-    border-bottom: tomato;
+
+
+.map{
+    margin-top: 70px;
 }
 
 /* ========== MAIN END ========== */
 
 /* ========== FOOTER START ========== */
+.footer{
+    background: #000;
+    text-align: center;
+    /* padding-bottom: 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.footer__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+}
+
+.footer__list-item{
+    margin-left: 10px;
+    text-align: center;
+}
+
+.footer__title{
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.footer__titel-text{
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 14px;
+}
 /* ========== FOOTER START ========== */
